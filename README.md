@@ -11,4 +11,5 @@ An implementation of an auction website. On this website people can create an ac
 
 ## Getting Started
 
-python -m pip install -r requirements.txt
+Run the following command in your terminal:
+`python -m pip install -r requirements.txt`
