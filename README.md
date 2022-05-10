@@ -30,7 +30,7 @@ Run the following command in your terminal:
 ![Active Listing](/auctions/design_document/sketches/Active%20Listing%401x.png)
 
 ### Categories screen
-![Categories](/auctions/design_document/sketches/Categories%20screen%401x%20(1).png
+![Categories](/auctions/design_document/sketches/Categories%20screen%401x%20(1).png)
 
 
 ## Navigation between screens
