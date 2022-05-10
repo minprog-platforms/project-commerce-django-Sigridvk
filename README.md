@@ -58,8 +58,26 @@ These buttons are almost (always) present, depending on if the user is logged in
 - Every category is a button. --> TO WHAT PAGE?
 
 ## Models - Class Diagram
+Underneath is the Class Diagram for this project. All the models used in this project are shown in the diagram. Underneath the names of the models, all the information we want to save in our database is listed. The arrows show the relationships between the different models.
 
 ![Class Diagram](/auctions/design_document/sketches/Schermafbeelding%202022-05-10%20om%2014.47.51.png)
+
+## Database information usage
+This section explains per model in the database which page uses this information
+
+### User
+This information is needed on every page to see which user is logged on. When no user is logged on, it is needed to log in.
+
+### Auction Listing
+This information is used on the default page, the page of a specific listing. The page where the user creates a listing add to this part of the database as well. Also the categories page uses this information to list all the categories.
+
+### Comments
+This information is used on the page of one specific auction listing.
+
+### Bid
+This information is used on the default page and the page of a specific auction listing.
+
+
 
 
 
