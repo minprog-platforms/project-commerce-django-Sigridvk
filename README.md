@@ -66,7 +66,7 @@ Underneath is the Class Diagram for this project. All the models used in this pr
 This section explains per model in the database which page uses this information
 
 ### User
-This information is needed on every page to see which user is logged on. When no user is logged on, it is needed to log in.
+This information is needed on every page to see which user is logged on. When no user is logged on, it is needed to log in. It is also used to display current or previous bids by whom they are done and also to show who posted a certain comment.
 
 ### Auction Listing
 This information is used on the default page, the page of a specific listing. The page where the user creates a listing add to this part of the database as well. Also the categories page uses this information to list all the categories.
