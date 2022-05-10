@@ -30,7 +30,7 @@ Run the following command in your terminal:
 ![Active Listing](/auctions/design_document/sketches/Active%20Listing%401x.png)
 
 ### Categories screen
-![Categories](/auctions/design_document/sketches/Categories%20screen%401x.png)
+![Categories](/auctions/design_document/sketches/Categories%20screen%401x%20(1).png
 
 
 ## Navigation between screens
@@ -53,9 +53,6 @@ These buttons are almost (always) present, depending on if the user is logged in
 
 ### Create Listing Screen
 - 'Save' button: saves the filled in information from the new listing and takes the user to the active listing screen of that listing.
-
-### Categories Screen
-- Every category is a button. --> TO WHAT PAGE?
 
 ## Models - Class Diagram
 Underneath is the Class Diagram for this project. All the models used in this project are shown in the diagram. Underneath the names of the models, all the information we want to save in our database is listed. The arrows show the relationships between the different models.
