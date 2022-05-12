@@ -1,0 +1,37 @@
+{% extends "auctions/layout.html" %}
+
+
+{% block body %}
+    <h2>{{listing.title}}</h2>
+    Created By: {{listing.owner}}
+
+
+    <hr>
+    <div>
+        <img src={{listing.image_url}} alt = "image">
+        <div> 
+            <h3>Current Price: €{{listing.starting_bid}}</h3> 
+        </div>
+        <div>{{listing.description}}</div>
+    
+    </div>
+    <hr>
+    <div>
+        <form action="{% url 'listing' listing.id %}" method="post">
+            {% csrf_token %}
+            <table>
+                {{ form }}
+            </table>
+            
+            <input type="submit">
+    </div>
+    <hr>
+    <div>
+        <h3>Biddings</h3>
+        {% for bid in biddings %}
+            Bid: {{bid.amount}}
+            <hr>
+        {% endfor %}
+    </div>
+   
+{% endblock %}
